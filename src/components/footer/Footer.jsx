@@ -2,7 +2,7 @@ import './Footer.scss';
 
 const Footer = () => (
   <footer>
-    © 1990-2022 by IMDb.com, Inc.
+    Super Footer
   </footer>
 );
 
