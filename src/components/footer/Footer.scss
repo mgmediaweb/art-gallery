@@ -1,0 +1,12 @@
+@import "../../config";
+
+footer {
+  align-items: center;
+  color: $color-secondary;
+  display: flex;
+  height: 80px;
+  justify-content: center;
+  font-size: 0.8rem;
+  margin-bottom: $padding*4.5;
+  width: 100%;
+}
