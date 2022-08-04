@@ -1,20 +1,33 @@
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import logo from '../../assets/images/logo.png';
 import './Navbar.scss';
 
 const Navbar = () => (
   <nav>
     <ul>
-      <li>
+      <li className="logo">
         <img src={logo} alt="Gallery Logo" className="logo-main" />
       </li>
       <li>
-        <Link to="/">Home</Link>
+        <NavLink to="/">Obras</NavLink>
       </li>
       <li>
-        <Link to="/gallery">Gallery</Link>
+        <NavLink to="/artist">Aristas</NavLink>
+      </li>
+      <li>
+        <NavLink to="/gallery">Galeria</NavLink>
+      </li>
+      <li>
+        <NavLink to="/contact">Contacto</NavLink>
+      </li>
+      <li>
+        <NavLink to="/guest">Invitado</NavLink>
       </li>
     </ul>
+    <div className="bottom-nav">
+      <div className="language">Espanol</div>
+      <div className="currency">MXP</div>
+    </div>
   </nav>
 );
 
