@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
-@import "./config";
+@import './config';
 
 * {
   box-sizing: border-box;
@@ -28,8 +28,13 @@ h1 {
 section {
   background-position: center center;
   background-repeat: no-repeat;
-  background-size: cover;  
+  background-size: cover;
   min-height: 100vh;
   text-align: center;
   width: 100vw;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
 }
