@@ -1,3 +1,8 @@
 {
-    "Welcome_to_react": "Welcome to React and react-i18next"
+  "art": "Art",
+  "artists": "Artists",
+  "gallery": "Gallery",
+  "contact": "Contact",
+  "guest": "Guest",
+  "currency": "USD"
 }

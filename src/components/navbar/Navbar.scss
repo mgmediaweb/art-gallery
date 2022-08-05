@@ -1,7 +1,7 @@
 @import '../../config';
 
 .active {
-  color: $color-active;
+  border-left: 0.3rem solid $color-active;
 }
 
 nav {
@@ -15,6 +15,7 @@ nav {
   align-items: center;
   justify-content: center;
   text-align: center;
+  border-right: 0.5px solid black;
 
   ul {
     display: flex;
@@ -23,13 +24,35 @@ nav {
 
     .logo {
       padding-top: 0;
+      border: none;
+
+      img {
+        width: 80%;
+      }
     }
 
     li {
-      border: 0.5px solid black;
+      border-top: 0.5px solid black;
       flex: 1;
-      padding-top: 2rem;
+      display: flex;
       position: relative;
+      align-items: center;
+      justify-content: center;
+      transition: 0.5s;
+
+      a {
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        &:not(.active):hover {
+          border-left: 0.3rem solid $color-active;
+          transition: 0.5s;
+        }
+      }
     }
   }
 
@@ -41,6 +64,16 @@ nav {
     & > * {
       flex: 1;
       border: 0.5px solid black;
+      border-right: none;
+    }
+
+    button {
+      cursor: pointer;
+      background-color: inherit;
+
+      &:hover {
+        color: $color-active;
+      }
     }
   }
 }
