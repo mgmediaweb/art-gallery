@@ -1,9 +1,8 @@
 {
-   "construction" : "Construction",
-   "edges" : "Edges",
-   "gallery" : "Gallery",
-   "contact" : "Contact",
-   "guest" : "Guest",
-   "currency" : "USD"
-
+  "art": "Art",
+  "artists": "Artists",
+  "gallery": "Gallery",
+  "contact": "Contact",
+  "guest": "Guest",
+  "currency": "USD"
 }

@@ -17,10 +17,10 @@ const Navbar = () => {
           <img src={logo} alt="Gallery Logo" className="logo-main" />
         </li>
         <li>
-          <NavLink to="/">{t('construction')}</NavLink>
+          <NavLink to="/">{t('art')}</NavLink>
         </li>
         <li>
-          <NavLink to="/artist">{t('edges')}</NavLink>
+          <NavLink to="/artist">{t('artists')}</NavLink>
         </li>
         <li>
           <NavLink to="/gallery">{t('gallery')}</NavLink>
@@ -45,7 +45,7 @@ const Navbar = () => {
             setEnglishLanguage(!EnglishLanguage);
           }}
         >
-          {EnglishLanguage ? 'English' : 'Espanol'}
+          {EnglishLanguage ? 'Español' : 'English' }
         </button>
         <div className="currency">{t('currency')}</div>
       </div>

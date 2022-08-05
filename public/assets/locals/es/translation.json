@@ -1,8 +1,8 @@
 {
-    "construction" : "Obras",
-    "edges" : "Aristas",
-   "gallery" : "Galeria",
-   "contact" : "Contacto",
-   "guest" : "Invitado", 
-   "currency" : "MXP"
+  "art": "Obras",
+  "artists": "Artistas",
+  "gallery": "Galería",
+  "contact": "Contacto",
+  "guest": "Invitado", 
+  "currency": "MXP"
 }
